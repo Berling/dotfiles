@@ -1,1 +1,65 @@
-/home/georg/.Xresources
+!urxvt
+URxvt*buffered: true
+URxvt*cursorBlink: true
+URxvt*underlineColor: yellow
+URxvt*font: xft:MesloLGS-Regular:size=6:antialias=true,xft:Meslo\ LG\ S\ For\ Powerline:size=6:antialias=true
+URxvt*depth: 32
+URxvt*borderless: 1
+URxvt*scrollBar: false
+URxvt*loginShell: true
+URxvt*sceondaryScroll: true
+URxvt*saveLines: 5000
+URxvt.perl-ext-common: default,matcher
+URxvt.urlLauncher: qutebrowser
+URxvt.matcher.button: 1
+
+#define white							#ffffff
+#define dark_grey					#282828
+#define light_grey					#363636
+#define dark_orange				#ff3000
+#define light_orange				#ff6030
+#define dark_magenta				#ff0050
+#define light_magenta			#ff2080
+#define dark_green					#54af4b
+#define light_green				#74cf6b
+#define dark_yellow				#a4ae4b
+#define light_yellow				#c4ce6b
+#define dark_red						#bc241c
+#define light_red					#dc443c
+#define dark_cyan					#1cafbc
+#define light_cyan					#3ccfdc
+
+*background:								dark_grey
+*foreground:								white
+
+!! black dark/light
+*color0:										dark_grey
+*color8:										light_grey
+
+!! red dark/light
+*color1:										dark_red
+*color9:										light_red
+
+!! green dark/light
+*color2:										dark_green
+*color10:									light_green
+
+!! yellow dark/light
+*color3:										dark_yellow
+*color11:									light_yellow
+
+!! blue dark/light
+*color4:										dark_orange
+*color12:									light_orange
+
+!! magenta dark/light
+*color5:										dark_magenta
+*color13:									light_magenta
+
+!! cyan dark/light
+*color6:										dark_cyan
+*color14:									light_cyan
+
+!! white dark/light
+*color7:										white
+*color15:									white
